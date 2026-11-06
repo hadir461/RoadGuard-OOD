@@ -218,3 +218,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RoadGuard-OOD: local data, model weights and experiment artifacts
+.venv/
+data/raw/
+data/processed/
+datasets/
+RDD2022/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.pt
+*.onnx
+.env.*
+secrets/
+*.pem
+*.key
+.aws/
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+
+# DVC metadata (*.dvc, .dvc/ and dvc.lock) remain versionable.
